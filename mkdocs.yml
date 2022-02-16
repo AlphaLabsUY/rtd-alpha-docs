@@ -15,9 +15,6 @@ extra_javascript:
 - assets/versions.js
 extra_css:
 - assets/versions.css
-google_analytics:
-- 'UA-105170809-2'
-- 'auto'
 markdown_extensions:
 - codehilite
 - admonition
@@ -25,7 +22,5 @@ markdown_extensions:
     permalink: true
 nav:
   - Overview: index.md
-  - Support: SUPPORT.md
-  - roadmap.md
   - Releases ⧉: https://github.com/argoproj/argo-cd/releases
   - Blog ⧉: https://blog.argoproj.io/
