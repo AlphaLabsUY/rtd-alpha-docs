@@ -52,8 +52,6 @@ meeting:
 
 ## Architecture
 
-![Argo CD Architecture]
-
 Argo CD is implemented as a kubernetes controller which continuously monitors running applications
 and compares the current, live state against the desired target state (as specified in the Git repo).
 A deployed application whose live state deviates from the target state is considered `OutOfSync`.
@@ -62,7 +60,7 @@ manually sync the live state back to the desired target state. Any modifications
 target state in the Git repo can be automatically applied and reflected in the specified target
 environments.
 
-For additional details, see [architecture overview].
+For additional details, see.
 
 ## Features
 
