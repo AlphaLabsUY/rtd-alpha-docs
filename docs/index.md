@@ -6,7 +6,7 @@
 
 Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
-![Argo CD UI](assets/argocd-ui.gif)
+![Argo CD UI](assets/logo.png)
 
 <!-- markdownlint-disable MD026 -->
 ## Why Argo CD?
@@ -24,9 +24,9 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
-Follow our [getting started guide](getting_started.md). Further user oriented [documentation](user-guide/)
-is provided for additional features. If you are looking to upgrade ArgoCD, see the [upgrade guide](./operator-manual/upgrading/overview.md).
-Developer oriented [documentation](developer-guide/) is available for people interested in building third-party integrations.
+Follow our . Further user oriented 
+is provided for additional features. If you are looking to upgrade ArgoCD, see the .
+Developer oriented is available for people interested in building third-party integrations.
 
 ## How it works
 
@@ -42,7 +42,7 @@ the desired application state. Kubernetes manifests can be specified in several 
 
 Argo CD automates the deployment of the desired application states in the specified target environments.
 Application deployments can track updates to branches, tags, or pinned to a specific version of
-manifests at a Git commit. See [tracking strategies](user-guide/tracking_strategies.md) for additional
+manifests at a Git commit. See  for additional
 details about the different tracking strategies available.
 
 For a quick 10 minute overview of Argo CD, check out the demo presented to the Sig Apps community
@@ -52,7 +52,7 @@ meeting:
 
 ## Architecture
 
-![Argo CD Architecture](assets/argocd_architecture.png)
+![Argo CD Architecture]
 
 Argo CD is implemented as a kubernetes controller which continuously monitors running applications
 and compares the current, live state against the desired target state (as specified in the Git repo).
@@ -62,7 +62,7 @@ manually sync the live state back to the desired target state. Any modifications
 target state in the Git repo can be automatically applied and reflected in the specified target
 environments.
 
-For additional details, see [architecture overview](operator-manual/architecture.md).
+For additional details, see [architecture overview].
 
 ## Features
 
