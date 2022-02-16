@@ -11,10 +11,10 @@ theme:
   favicon: 'assets/favicon.png'
   # language: en-custom
   custom_dir: overrides
-extra_javascript:
-- assets/versions.js
-extra_css:
-- assets/versions.css
+#extra_javascript:
+#- assets/versions.js
+#extra_css:
+#- assets/versions.css
 markdown_extensions:
 - codehilite
 - admonition
